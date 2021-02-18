@@ -3,62 +3,76 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className={styles.header}>
+      <header>
+          <svg xmlns="http://www.w3.org/2000/svg" width="54px" height="54px" viewBox="0 0 250 250" version="1.1" fill="#141423">
+              <path d="M 0,0 V 207 H 207 V 0 Z m 162.21,120.76 c 0,36.45 -22.66,55.76 -58.71,55.76 -35.26,0 -58.71,-19.31 -58.71,-55.76 V 33.28 h 26.57 v 87.67 c 0,22.06 12,32.51 32.11,32.51 20.11,0 32.11,-10.45 32.11,-32.51 V 33.28 h 26.6 z"></path>
+          </svg>
+        <h1 className={styles.title}>
+          Energy suppliers logo manager
+        </h1>
+      </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Energy Suppliers Logo Manager
-        </h1>
-
+        
         <p className={styles.description}>
-          Click a supplier to view and edit the logo
+          Select a supplier to view and edit the logo
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
           </a>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
+          </a>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
+          </a>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
+          </a>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
+          </a>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
+          </a>
+
+          <a /*href="https://nextjs.org/docs"*/ className={styles.card}>
+            <img src="https://uswitch-cms.imgix.net/uswitch-imgix/energy/supplier-logos/british-gas.png?w=122&h=50&fit=fill&bg=0fff&fm=png8"></img>
+            <p>Insert Supplier Name</p>
+          </a>
+
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
