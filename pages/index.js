@@ -3,9 +3,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.header}>
+    <div>
       <header>
-          <svg xmlns="http://www.w3.org/2000/svg" width="54px" height="54px" viewBox="0 0 250 250" version="1.1" fill="#141423">
+          <svg className={styles.uswitchlogo} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" version="1.1" fill="#141423">
               <path d="M 0,0 V 207 H 207 V 0 Z m 162.21,120.76 c 0,36.45 -22.66,55.76 -58.71,55.76 -35.26,0 -58.71,-19.31 -58.71,-55.76 V 33.28 h 26.57 v 87.67 c 0,22.06 12,32.51 32.11,32.51 20.11,0 32.11,-10.45 32.11,-32.51 V 33.28 h 26.6 z"></path>
           </svg>
         <h1 className={styles.title}>
@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <p className={styles.description}>
-          Select a supplier to view and edit the logo
+          Select supplier to edit logo
         </p>
 
         <div className={styles.grid}>

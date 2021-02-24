@@ -1,14 +1,15 @@
-.header {
-  display: inline;
+.uswitchlogo {
+  margin: 2rem 2rem;
+  width: 5rem;
+  height: 5rem;
+  flex-direction: row;
 }
 
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.title {
+  font-size: 3rem;
+  display: inline;
+  flex-direction: row;
+  margin: 1rem;
 }
 
 .main {
@@ -20,22 +21,10 @@
   align-items: center;
 }
 
-.title {
-  position: relative;
-  margin: 0;
-  line-height: 1;
-  font-size: 3rem;
-  display: inline;
-}
-
-.title,
 .description {
+  line-height: 1;
+  font-size: 2rem;
   text-align: center;
-}
-
-.description {
-  line-height: 1;
-  font-size: 1.5rem;
 }
 
 .grid {
@@ -63,17 +52,7 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 2.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1;
+  border-width: 1px;
 }
 
 @media (max-width: 600px) {
